@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/#how", key: "how", label: "How Camping Works?" },
+  { href: "/#how", key: "how", label: "How Campsite Works?" },
   { href: "/#guide", key: "services", label: "Guide" },
   { href: "/#features", key: "pricing ", label: "Features" },
   { href: "/#contact", key: "contact_us", label: "Contact Us" },
@@ -29,7 +29,7 @@ export const FEATURES = [
     icon: "/calendar.svg",
     variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Schedule an adventure with friends. On holidays, there are many interesting offers from Campsite. That way, there's no more discussion",
   },
   {
     title: "Technology using augment reality",
@@ -51,11 +51,11 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "Learn More",
-    links: ["About Hilink", "Jobs", "Privacy Policy", "Contact Us"],
+    links: ["About Campsite", "Jobs", "Privacy Policy", "Contact Us"],
   },
   {
     title: "Our Community",
-    links: ["Climbing together", "Hiking hilink", "Hilink"],
+    links: ["Climbing together", "Hiking Campsite", "Campsite Near You"],
   },
 ];
 
@@ -63,7 +63,7 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Phone", value: "123-456-7890" },
-    { label: "Email", value: "info@hilink.com" },
+    { label: "Email", value: "info@campsite.com" },
   ],
 };
 

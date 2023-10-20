@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/#how", key: "how", label: "How Hilink Works?" },
+  { href: "/#how", key: "how", label: "How Camping Works?" },
   { href: "/#guide", key: "services", label: "Guide" },
   { href: "/#features", key: "pricing ", label: "Features" },
   { href: "/#contact", key: "contact_us", label: "Contact Us" },

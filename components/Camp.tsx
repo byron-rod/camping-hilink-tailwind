@@ -27,7 +27,7 @@ const CampSite = ({
               alt="map"
               width={28}
               height={28}
-              className="w-full h-auto"
+              className="w-28 h-28"
             />
           </div>
           <div className="flex flex-col gap-1">

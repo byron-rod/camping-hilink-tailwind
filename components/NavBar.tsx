@@ -2,13 +2,14 @@ import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
+import logoCamp from "../public/campsite.png";
 
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image
-          src="/hilink-logo.svg"
+          src={logoCamp}
           alt="logo"
           width={74}
           height={29}
